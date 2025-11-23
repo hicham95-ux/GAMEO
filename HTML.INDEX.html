@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Download amazing games for PC and mobile devices" />
+    <title>Game Downloads - Play Amazing Games</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .games-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .game-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 25px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            position: relative;
+        }
+
+        .game-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        .game-image {
+            width: 120px;
+            height: 120px;
+            border-radius: 15px;
+            margin: 0 auto 15px;
+            object-fit: cover;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .game-icon {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .game-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .game-card p {
+            margin-bottom: 20px;
+            opacity: 0.8;
+            font-size: 0.9rem;
+        }
+
+        .download-btn {
+            display: inline-block;
+            background: linear-gradient(45deg, #FF6B6B, #FF8E53);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        .download-btn:hover {
+            background: linear-gradient(45deg, #FF8E53, #FF6B6B);
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(255, 107, 107, 0.4);
+        }
+
+        .stars {
+            color: #FFD700;
+            font-size: 1.2rem;
+            margin: 10px 0;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 30px 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            
+            .games-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
+            .game-card {
+                padding: 20px;
+            }
+
+            .game-image {
+                width: 100px;
+                height: 100px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 10px;
+            }
+            
+            header {
+                padding: 20px 0;
+            }
+            
+            header h1 {
+                font-size: 1.8rem;
+            }
+
+            .game-image {
+                width: 80px;
+                height: 80px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎮 Amazing Games Collection</h1>
+            <p>Download your favorite games and start playing today!</p>
+        </header>
+
+        <div class="games-grid">
+            <!-- Little Nightmares -->
+            <div class="game-card">
+                <img src="https://i.pinimg.com/1200x/c4/de/a3/c4dea3396cb0ae21985c7ccb9f42f20c.jpg" alt="Little Nightmares" class="game-image">
+                <div class="game-icon">📱</div>
+                <h3>Little Nightmares</h3>
+                <div class="stars">★★★★★</div>
+                <p>Dark whimsical tale about escaping your childhood fears</p>
+                <a href="https://game-seven.online/cl/i/j762wn" class="download-btn">Download Now</a>
+            </div>
+
+            <!-- Roblox -->
+            <div class="game-card">
+                <img src="https://i.pinimg.com/736x/eb/20/30/eb203036af2bf931259d9c2ae254b2cd.jpg" alt="Roblox" class="game-image">
+                <div class="game-icon">📱</div>
+                <h3>Roblox</h3>
+                <div class="stars">★★★★★</div>
+                <p>Create, share, and play in an endless universe of games</p>
+                <a href="https://game-seven.online/cl/i/j762wn" class="download-btn">Download Now</a>
+            </div>
+
+            <!-- Forza Horizon 5 -->
+            <div class="game-card">
+                <img src="https://i.pinimg.com/736x/12/e0/c9/12e0c9c80a81c3423132cb532283b2e9.jpg" alt="Forza Horizon 5" class="game-image">
+                <div class="game-icon">🖥️</div>
+                <h3>Forza Horizon 5</h3>
+                <div class="stars">★★★★★</div>
+                <p>Epic open-world racing adventure in Mexico</p>
+                <a href="https://game-seven.online/cl/i/j762wn" class="download-btn">Download Now</a>
+            </div>
+
+            <!-- Red Dead Redemption 2 -->
+            <div class="game-card">
+                <img src="https://i.pinimg.com/736x/d1/13/9b/d1139b1ee12965f315652a3eb970aa28.jpg" alt="Red Dead Redemption 2" class="game-image">
+                <div class="game-icon">🖥️</div>
+                <h3>Red Dead Redemption 2</h3>
+                <div class="stars">★★★★★</div>
+                <p>Epic western adventure in a vast open world</p>
+                <a href="https://game-seven.online/cl/i/j762wn" class="download-btn">Download Now</a>
+            </div>
+
+            <!-- Candy Crush Saga -->
+            <div class="game-card">
+                <img src="https://i.pinimg.com/736x/a3/44/2a/a3442aba4e17d13fa948dca86717cb72.jpg" alt="Candy Crush Saga" class="game-image">
+                <div class="game-icon">📱</div>
+                <h3>Candy Crush Saga</h3>
+                <div class="stars">★★★★☆</div>
+                <p>Sweet puzzle adventure with hundreds of levels</p>
+                <a href="https://game-seven.online/cl/i/j762wn" class="download-btn">Download Now</a>
+            </div>
+
+            <!-- Block Blast -->
+            <div class="game-card">
+                <img src="https://i.pinimg.com/736x/ae/37/1e/ae371e18b76783d036eeef3ef068f215.jpg" alt="Block Blast" class="game-image">
+                <div class="game-icon">📱</div>
+                <h3>Block Blast</h3>
+                <div class="stars">★★★★☆</div>
+                <p>Addictive block puzzle game with colorful graphics</p>
+                <a href="https://game-seven.online/cl/i/j762wn" class="download-btn">Download Now</a>
+            </div>
+
+            <!-- NBA 2K Mobile -->
+            <div class="game-card">
+                <img src="https://i.pinimg.com/736x/74/7a/60/747a6063a1b9d9f3712e8fefbf5a3964.jpg" alt="NBA 2K Mobile" class="game-image">
+                <div class="game-icon">📱</div>
+                <h3>NBA 2K Mobile</h3>
+                <div class="stars">★★★★☆</div>
+                <p>Authentic basketball experience on mobile</p>
+                <a href="https://game-seven.online/cl/i/j762wn" class="download-btn">Download Now</a>
+            </div>
+
+            <!-- Basketball Stars -->
+            <div class="game-card">
+                <img src="https://i.pinimg.com/736x/37/fe/03/37fe035b27424e46af7d220900be1bb6.jpg" alt="Basketball Stars" class="game-image">
+                <div class="game-icon">📱</div>
+                <h3>Basketball Stars</h3>
+                <div class="stars">★★★★☆</div>
+                <p>1-on-1 basketball showdown with amazing controls</p>
+                <a href="https://game-seven.online/cl/i/j762wn" class="download-btn">Download Now</a>
+            </div>
+
+            <!-- Dunk City Dynasty -->
+            <div class="game-card">
+                <img src="https://i.pinimg.com/736x/ce/60/f8/ce60f8ce0bdded41fba0af7a164e427f.jpg" alt="Dunk City Dynasty" class="game-image">
+                <div class="game-icon">📱</div>
+                <h3>Dunk City Dynasty</h3>
+                <div class="stars">★★★★☆</div>
+                <p>Build your basketball dynasty and dominate the court</p>
+                <a href="https://game-seven.online/cl/i/j762wn" class="download-btn">Download Now</a>
+            </div>
+
+            <!-- MLB 9 Innings 25 -->
+            <div class="game-card">
+                <img src="https://i.pinimg.com/736x/55/2b/c2/552bc2836dbb66714ff0b21d002fe2e0.jpg" alt="MLB 9 Innings 25" class="game-image">
+                <div class="game-icon">📱</div>
+                <h3>MLB 9 Innings 25</h3>
+                <div class="stars">★★★★☆</div>
+                <p>Official MLB baseball game with realistic gameplay</p>
+                <a href="https://game-seven.online/cl/i/j762wn" class="download-btn">Download Now</a>
+            </div>
+
+            <!-- OOTP Baseball Go 26 -->
+            <div class="game-card">
+                <img src="https://i.pinimg.com/736x/ab/7c/e3/ab7ce3ebe8d446afc503af2427044176.jpg" alt="OOTP Baseball Go 26" class="game-image">
+                <div class="game-icon">📱</div>
+                <h3>OOTP Baseball Go 26</h3>
+                <div class="stars">★★★★☆</div>
+                <p>Baseball management simulation on the go</p>
+                <a href="https://game-seven.online/cl/i/j762wn" class="download-btn">Download Now</a>
+            </div>
+
+            <!-- Homerun Battle 3D -->
+            <div class="game-card">
+                <img src="https://i.pinimg.com/736x/c7/e8/46/c7e846f8375ee70dc194d11175a8cb88.jpg" alt="Homerun Battle 3D" class="game-image">
+                <div class="game-icon">📱</div>
+                <h3>Homerun Battle 3D</h3>
+                <div class="stars">★★★★☆</div>
+                <p>Exciting baseball batting game with 3D graphics</p>
+                <a href="https://game-seven.online/cl/i/j762wn" class="download-btn">Download Now</a>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Game Downloads. All rights reserved.</p>
+            <p style="margin-top: 10px; opacity: 0.7;">Your ultimate destination for amazing games!</p>
+        </footer>
+    </div>
+
+    <script>
+        // Simple script to ensure page loads properly
+        console.log('Page loaded successfully');
+        
+        // Add click tracking for download buttons
+        document.querySelectorAll('.download-btn').forEach(button => {
+            button.addEventListener('click', function(e) {
+                console.log('Redirecting to Content Locker...');
+                // The link will naturally redirect to OGads
+            });
+        });
+    </script>
+</body>
+</html>
